@@ -1,0 +1,70 @@
+@charset "UTF-8";
+
+/*
+Theme Name: WL Test Theme
+Theme URI: 
+Author: the WordPress team
+Author URI:
+Description: WL Test Theme test
+Version: 0.1
+License: GNU General Public License v2 or later
+License URI: http://www.gnu.org/licenses/gpl-2.0.html
+*/
+
+@import url(https://fonts.googleapis.com/css?family=Roboto:300,regular,700,900);
+
+body,
+html{
+    margin: 0;
+    padding: 0;
+}
+
+body{
+    font-family: Roboto;
+    font-size: 18px;
+}
+article{
+    padding: 0 15px;
+}
+.header{
+    display: flex;
+    align-items: center;
+    padding: 10px 15px;
+    background: #37a9c5;
+    justify-content: space-between;
+}
+.pd15{
+    padding: 15px 0;
+}
+.logo img{
+    width: 200px;
+    height: auto;
+}
+.dib{
+    display: inline-block;    
+}
+.val{
+    vertical-align: middle;
+}
+.img_and_dop{
+    display: flex;
+    align-items: flex-start;
+}
+.dops{
+    padding: 0 15px;
+}
+.car_img img{
+    width: 100%;
+    height: auto;
+}
+.support{
+    color: #fff;
+}
+.color_auto{
+    display: block;
+    height: 20px;
+    width: 80px;
+    box-shadow: 0 0 0px 2px #333;    
+}
+
+
