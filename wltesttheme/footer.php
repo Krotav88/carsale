@@ -4,7 +4,7 @@
  *
  * @package WordPress
  * @subpackage WL Test Theme
- * @since WL Test Theme 0.1
+ * @since WL Test Theme 0.1x
  */
 ?>
 
