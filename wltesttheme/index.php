@@ -13,5 +13,7 @@ get_header(); ?>
 <?php echo do_shortcode( '[krt_list_car]' );?>
 </article>
 <?php
-
+if(!empty($_GET['xxx'])){
+    echo "get +";
+}
 get_footer();
